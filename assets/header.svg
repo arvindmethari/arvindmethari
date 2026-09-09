@@ -1,0 +1,83 @@
+<svg width="100%" height="250" viewBox="0 0 1200 250"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141e30">
+        <animate attributeName="stop-color"
+                 values="#141e30;#243b55;#302b63;#141e30"
+                 dur="8s"
+                 repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#243b55">
+        <animate attributeName="stop-color"
+                 values="#243b55;#302b63;#141e30;#243b55"
+                 dur="8s"
+                 repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Animated Background -->
+  <rect width="1200" height="250" fill="url(#bg)"/>
+
+  <!-- Animated circles -->
+  <circle cx="150" cy="70" r="35" fill="#ffffff" opacity="0.08">
+    <animate attributeName="cy"
+             values="70;150;70"
+             dur="6s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1000" cy="170" r="55" fill="#ffffff" opacity="0.07">
+    <animate attributeName="cx"
+             values="1000;900;1000"
+             dur="7s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1080" cy="60" r="25" fill="#ffffff" opacity="0.08">
+    <animate attributeName="cy"
+             values="60;110;60"
+             dur="5s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main Heading -->
+  <text x="600" y="105"
+        text-anchor="middle"
+        fill="white"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="42"
+        font-weight="bold"
+        filter="url(#glow)">
+    Hi, I'm Arvind 👋
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="155"
+        text-anchor="middle"
+        fill="#e6e6e6"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="20">
+    Computer Science &amp; Machine Learning Student
+  </text>
+
+  <text x="600" y="185"
+        text-anchor="middle"
+        fill="#e6e6e6"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18">
+    Ready To Learn More 🚀
+  </text>
+
+</svg>
