@@ -14,16 +14,16 @@ I enjoy learning new technologies, experimenting with ideas, and turning them in
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 Socials
 
 <p align="center">
 
 <a href="https://www.linkedin.com/in/arvindmethari/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
 <a href="mailto:arvindmethari@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
 </p>
@@ -63,24 +63,6 @@ I enjoy learning new technologies, experimenting with ideas, and turning them in
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-
-<img src="https://github-readme-stats.shion.dev/api?username=arvindmethari&theme=dark&hide_border=false&include_all_commits=false&count_private=false" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=arvindmethari&theme=dark&hide_border=false" />
-
-<br/>
-
-<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arvindmethari&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" />
-
-</p>
 
 ---
 
