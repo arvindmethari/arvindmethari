@@ -1,0 +1,66 @@
+<svg width="100%" height="240" viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      
+      /* Base font styles */
+      .text-line {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        fill: #c9d1d9;
+        opacity: 0;
+        transform: translateY(15px);
+        animation: fadeInUp 0.8s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+
+      /* Specific text styling */
+      .heading { font-size: 28px; font-weight: 700; fill: #ffffff; }
+      .subheading { font-size: 16px; font-weight: 500; fill: #58a6ff; }
+      .body-text { font-size: 15px; font-weight: 400; }
+      .bold { font-weight: 600; fill: #ffffff; }
+
+      /* Staggered Delay in Milliseconds */
+      .delay-1 { animation-delay: 200ms; }
+      .delay-2 { animation-delay: 600ms; }
+      .delay-3 { animation-delay: 1000ms; }
+      .delay-4 { animation-delay: 1400ms; }
+
+      /* Animation keyframes */
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(15px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="800" height="240" rx="10" />
+
+  <!-- Content with staggered animation delays -->
+  <g transform="translate(30, 0)">
+    <!-- Line 1: Main Title -->
+    <text x="0" y="45" class="text-line heading delay-1">
+      👋 About Me
+    </text>
+
+    <!-- Line 2: Subtitle -->
+    <text x="0" y="85" class="text-line body-text delay-2">
+      Hey! I'm <tspan class="bold">Arvind</tspan>, a 3rd-year B.Tech student passionate about <tspan class="subheading">AI/ML</tspan>, problem-solving,
+    </text>
+
+    <!-- Line 3: Description -->
+    <text x="0" y="115" class="text-line body-text delay-3">
+      and building practical projects. I enjoy learning new technologies, experimenting
+    </text>
+
+    <!-- Line 4: Closing -->
+    <text x="0" y="145" class="text-line body-text delay-4">
+      with ideas, and turning them into useful solutions. Always curious &amp; excited to build! 🚀
+    </text>
+  </g>
+</svg>
