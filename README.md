@@ -32,7 +32,7 @@ I enjoy learning new technologies, experimenting with ideas, and turning them in
 
 ## 💻 Tech Stack
 
-### 🐍 Programming Languages
+### 👨‍💻 Programming Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
